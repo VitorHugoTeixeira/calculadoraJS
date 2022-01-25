@@ -4,10 +4,9 @@ document.addEventListener('DOMContentLoaded', init, false)
 //Inicia os métodos do arquivo nos elementos especificados
 function init() {
     const screen = document.querySelector('.input-calculator')
-    const corpoCalculadora = document.querySelector('.body-calculator')
+    const bodyCalculator = document.querySelector('.body-calculator')
 
-    //methods
-    corpoCalculadora.addEventListener('click', e => insertToTextInScreen(e))
+    bodyCalculator.addEventListener('click', e => insertToTextInScreen(e))
 }
 
 function insertToTextInScreen(element) {
